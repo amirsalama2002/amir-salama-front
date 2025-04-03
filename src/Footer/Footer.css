@@ -35,3 +35,7 @@
     font-weight: bolder;
   }
   
+  .footer .footername .footer1 a{
+    display: inline-block;
+    color: #0f7eec;
+  }

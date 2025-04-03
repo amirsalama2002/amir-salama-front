@@ -17,7 +17,7 @@
     align-items: center;
   } */
   .slider-container .slide img{
-    width: 80px;
+    width: 60px;
     margin: auto;
     height: 70px;
     border-radius: 50%;
@@ -34,13 +34,13 @@
   
 
   @media screen and (max-width:500px) {
-
-    .slide {
-    width: 100% !important;
+   .slide {
+    /* width: 0% !important; */
     margin: auto;
+    margin-left: 5px;
     border: 1px solid #827b7b;
     border-radius: 8px;
-    padding:10px 20px ;
+    padding:10px 20px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
