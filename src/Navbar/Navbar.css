@@ -8,7 +8,7 @@
     align-items: center;
     background-color: #17212b;
     padding: 0px 2px;
-    /* margin-bottom: -20px; */
+    margin-bottom: -20px;
     color: white;
     box-shadow: 2px 2px 1px rgb(184, 162, 162);
   }
@@ -97,7 +97,8 @@
     margin-top: 13px;
   }
   .nav-links-mobile{
-    margin-top: -7px;
+    margin-top: -22px;
+    box-shadow: 1px 1px 1px wheat;
   }
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -105,13 +106,12 @@
       display: none;
     }
     .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      /* padding: 0rem 1rem; */
-      color: white;
-      box-shadow: 2px 2px 2px white;
-      margin-bottom: -20px;
+        background-color: #17212b;
+        margin-bottom: none;
+        padding: none;
+        color: white;
+        box-shadow: 2px 2px 1px rgb(184, 162, 162);
+
     }
   
     .mobile-menu-icon {
