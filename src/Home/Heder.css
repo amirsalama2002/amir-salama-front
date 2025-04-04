@@ -5,12 +5,13 @@
     background-image: url("../../public/imgs/WPP-RT2025-Header-homemobile.png");
     background-position: center;
     height: 100vh;
+    margin-bottom: -15px;
 
 }
 .home-hero__text h1 strong{
     font-family: "WPP Bold", sans-serif;
     -webkit-text-fill-color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .Heder .home-hero__text{
@@ -24,6 +25,9 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 7;
+}
+.Heder .home-hero__text .tow{
+    font-size: 30px;
 }
 
 .home-hero__text h1{

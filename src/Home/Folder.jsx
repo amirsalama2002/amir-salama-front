@@ -6,42 +6,54 @@ export default function Folder() {
         name: "Work is an essential part of life.It helps us grow, learn new skills, and contribute to society.Through work, we gain experience, meet new people, and build our careers.Whether it is a full-time job, part-time, or freelance work, having a purpose and being productive brings meaning to our lives.",
          city: "Cairo",
          imgs :'https://cdn-talent-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg',
-         alt: "Image 1" 
+         alt: "Image 1",
+         code : 'Link Github',
+         git : 'https://github.com/amirsalama2002?tab=repositories',
        },
     2:{
        id: 2,
        name: "A good job teaches responsibility, discipline, and teamwork.In today’s world, technology has made it possible to work remotely and connect with teams from around the globe.Finding a job you enjoy can be challenging, but when you do, work becomes more than just a way to earn money",
        city: "Giza",
        imgs :'https://www.shutterstock.com/image-illustration/programmer-developer-typing-script-source-600nw-2060615648.jpg',
-        alt: "Image 2" 
+        alt: "Image 2",
+        code : 'Link Gmail',
+          git : 'https://mail.google.com/mail/u/0/#inbox',
      },
     3:{
        id: 3,
        name: "Working in the field of programming is both challenging and rewarding. As a developer, I build web applications that solve real-world problems and improve people’s lives. My work involves writing clean and efficient code, designing databases, and creating user-friendly interfaces.",
        city: "Alexandria",
        imgs :'https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg',
-         alt: "Image 3" 
-       },
+         alt: "Image 3",
+         code : 'Link Linkedin',
+          git : 'https://www.linkedin.com/in/amir-hassan-7b3408289/',
+       }, 
        4:{
         id: 4,
         name: "I work as a programmer with a strong focus on web development. I specialize in building full-stack applications using modern technologies such as Laravel for backend and React.js for frontend.",
         city: "Alexandria",
         imgs :'https://www.ganttic.com/wp-content/uploads/2021/05/marketing-project-management-scaled.jpg',
-         alt: "Image 4" 
+         alt: "Image 4",
+         code : 'Link Whatsapp',
+          git : 'https://api.whatsapp.com/send/?phone=%2B2001028975932&text&type=phone_number&app_absent=0', 
         },
         5:{
           id: 5,
           name: "My responsibilities include writing clean, maintainable code, integrating APIs, managing databases, and optimizing performance. I enjoy solving complex problems, automating tasks, and continuously learning new tools and frameworks .",
           city: "Alexandria",
           imgs :'https://thumbs.dreamstime.com/b/manager-pointing-talking-coding-program-meeting-room-convocation-caucasian-project-engineering-prompt-diverse-smart-336303690.jpg',
-           alt: "Image 5" 
+           alt: "Image 5",
+           code : 'Link WebSite',
+           git : 'https://amirsalama-com.web.app/', 
           },
           6:{
             id: 6,
             name: "I’m comfortable working independently or as part of a team, and I always strive to deliver high-quality, scalable solutions that meet client needs. Passion, attention to detail, and a strong work ethic define my approach to programming.",
             city: "Alexandria",
             imgs :'https://miro.medium.com/v2/resize:fit:1400/0*LlP76gas89xP-qeH',
-             alt: "Image 5" 
+             alt: "Image 5",
+             code : 'Link icloud',
+             git : 'https://amirsalama200272@icloud.com',  
             },
   };
   return (
@@ -51,6 +63,9 @@ export default function Folder() {
           <div className='name' key={user.id}>
                 <img src={user.imgs} alt={user.alt}  />
                 <h1>{user.name}</h1>
+                <a href={user.git} target='blank' className="btn">
+                {user.code}
+               </a> 
           </div>
         ))}
       </div>

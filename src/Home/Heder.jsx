@@ -6,7 +6,7 @@ function Heder(){
         <div className="Heder">
         <div className="home-hero__text">
         {/* <h1> <strong>Amir Salama</strong><br/>Front-End Developer</h1> */}
-        <h1> <strong>Road to</strong><br/>2025</h1>
+        <h1> <strong>Road to</strong><br/><span className="tow">2025</span></h1>
         
         <div className="home-hero__text--small">
             {/* <p>I am Amir Salama, a programming  <br/> engineer, and I work as a web developer</p> */}
