@@ -3,8 +3,19 @@ import './Fot.css';
 export default function Fot() {
   return (
     <div className='fot'>
-        <img src="/imgs/image_playground__rh6qekwpnvum_large.jpg" alt="falcon" />
-        <h6>"Rendering a high-resolution animated scene featuring an infinity pool with real-time reflections of a vibrant sunset. The foreground elements, including palm trees and lounge chairs, are positioned using a grid-based layout for a balanced composition. Smooth gradient transitions in the sky simulate a natural dusk effect, while ambient lighting enhances the tropical aesthetic. The entire scene follows an optimized rendering pipeline to ensure seamless performance."</h6>
+        <div className="fot2">
+            <div className="fot3">
+
+        <img src="/imgs/Unpack-AR19-WPP.jpg" alt="falcon" />
+            </div>
+            <div className="fot3">
+                <div className="fot4">
+
+               <h1>Our people are the key to our success</h1>
+               <h4>This image shows a diverse group of people engaged in a collaborative discussion in a modern workspace. This scene represents the dynamic environment of software development, where programmers, designers, and strategists brainstorm innovative ideas. Programming is not just about writing code; it's about teamwork, problem-solving, and creativity. By working together, developers can create efficient, scalable, and impactful solutions for real-world challenges.</h4>
+                </div>
+        </div>
+        </div>
     </div>
   )
 }

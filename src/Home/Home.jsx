@@ -3,6 +3,7 @@ import Heder from "./Heder";
 import Contact from "./Contact";
 import Folder from "./Folder";
 import Fot from "./Fot";
+import Loop from "./Loop";
 function Home(){
     return(
         <div className="Home">
@@ -10,6 +11,7 @@ function Home(){
             <Contact/>
             <Folder/>
             <Fot/>
+            <Loop/>
         </div>
     )
 }

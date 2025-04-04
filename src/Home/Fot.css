@@ -1,8 +1,28 @@
 .fot{
-    width: 85%;
-    margin:40px auto;
+   margin: 30px 0px;
+}
+.fot .fot2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fot .fot2 .fot3{
+    width: 42.2rem;
+    margin: auto;
+}
+.fot .fot2 .fot3 .fot4{
+    padding: 40px;
+}
+.fot .fot2 .fot3 .fot4 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fot .fot2 .fot3 .fot4 h4{
+    font-size: 15px;
+    font-weight: 400;
 }
 .fot img{
     width: 100%;
-    height:500px;
+    height: 350px;
 }
