@@ -1,0 +1,15 @@
+
+.abouthome1{
+    background-image: url("../../public/imgs/WPP_About.jpg");
+    background-size: cover; 
+    background-position: center center; 
+    height: 400px; 
+    /* padding: 20px 20px; */
+    opacity: 0.5;
+    display: grid;
+    place-items:center; 
+    /* margin: 0; */
+}
+
+
+
