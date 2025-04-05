@@ -5,8 +5,7 @@
     background-image: url("../../public/imgs/WPP-RT2025-Header-homemobile.png");
     background-position: center;
     height: 100vh;
-    margin-top: -7px;
-
+    margin-top: -9px;
 }
 .home-hero__text h1 strong{
     font-family: "WPP Bold", sans-serif;
