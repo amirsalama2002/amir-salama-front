@@ -1,20 +1,26 @@
 .vio{
-    width: 100%;
+    width: 90%;
     margin:50px auto;
+    border: 1px solid white;
+    background-color: black;
+    padding: 2px 5px;
+    border-radius: 20px;
 }
 
 
-.vio .fo video {
+.vio .fo  video {
     display: inline-block;
-    width: 100%;
+    width: 100% !important;
+    margin: auto;
     height: 500px;
 }
-.vio .fo source{
+/* .vio .fo source{
     display: inline-block;
-    width: 100%;
-}
+    width: 0%;
+    margin: auto;
+} */
 
-.vio .fo iframe{
+/* .vio .fo iframe{
     width: 100%;
     height: 600px;
-}
+} */
