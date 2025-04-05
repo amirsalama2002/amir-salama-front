@@ -38,10 +38,10 @@ const Contact = () => {
   ];
 
   return (
-    <div className="slider-container">
+    <div className="slider-containeramir">
       <Slider {...settings}>
         {slides.map((slide) => (
-          <div key={slide.id} className="slide">
+          <div key={slide.id} className="slideamir">
             <div className="m">
             <img src={slide.imgs} alt="" />
             <h3>{slide.title}</h3>

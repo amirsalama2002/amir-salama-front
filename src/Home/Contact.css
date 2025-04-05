@@ -1,9 +1,9 @@
-.slider-container {
+.slider-containeramir {
     width: 85%;
     margin: 30px auto;
   }
   
-  .slide {
+  .slideamir {
     width:85% !important;
     margin: auto;
     border: 1px solid #827b7b;
@@ -16,25 +16,25 @@
     display: flex;
     align-items: center;
   } */
-  .slider-container .slide img{
+  .slider-containeramir .slideamir img{
     width: 60px;
     margin: auto;
     height: 70px;
     border-radius: 50%;
   }
   
-  .slide h3 {
+  .slideamir h3 {
     margin: 0;
     font-size: 1.3rem;
   }
   
-  .slide p {
+  .slideamir p {
     margin: 10px 0 0;
   }
   
 
   @media screen and (max-width:500px) {
-   .slide {
+   .slideamir {
     /* width: 0% !important; */
     margin: auto;
     margin-left: 5px;

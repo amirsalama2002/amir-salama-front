@@ -1,15 +1,43 @@
-
 .abouthome1{
     background-image: url("../../public/imgs/WPP_About.jpg");
     background-size: cover; 
     background-position: center center; 
-    height: 400px; 
-    /* padding: 20px 20px; */
+    height: 500px; 
     opacity: 0.5;
     display: grid;
     place-items:center; 
-    /* margin: 0; */
+    text-align: center;
+}
+.abouthome1 .kl{
+    font-size: 25px;
+    color: white;
+    opacity: 3;
+    text-transform: capitalize;
+}
+.abouthome1 .pro{
+    font-size: 25px;
+    font-weight: 200;
+}
+.abouthome1 a{
+      display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 10px 0px;
 }
 
+.abouthome1 a:hover {
+    transform: scale(1.1); /* Grow button on hover */
+    background-color: #0056b3; /* Change background color */
+  }
+
+ .abouthome1 a:active {
+    transform: scale(0.9); /* Shrink button on click */
+  }
 
 
