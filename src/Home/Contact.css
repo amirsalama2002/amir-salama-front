@@ -3,7 +3,8 @@
     margin: 30px auto;
   }
   
-  .slideamir {
+  .slideamir{
+    /* display: flex; */
     width:85% !important;
     margin: auto;
     border: 1px solid #827b7b;
@@ -12,10 +13,6 @@
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  /* .m{
-    display: flex;
-    align-items: center;
-  } */
   .slider-containeramir .slideamir img{
     width: 60px;
     margin: auto;
@@ -35,7 +32,7 @@
 
   @media screen and (max-width:500px) {
    .slideamir {
-    /* width: 0% !important; */
+    /* width: 95% !important; */
     margin: auto;
     margin-left: 5px;
     border: 1px solid #827b7b;
