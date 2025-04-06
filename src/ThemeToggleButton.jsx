@@ -1,10 +1,15 @@
-import React from "react";
+// import React, { useState } from "react";
 import "./App.css";
 import { useTheme } from "./ThemeProvider";
 const ThemeToggleButton = () => {
   const { toggleTheme } = useTheme();
-
-  return <button className="mero" onClick={toggleTheme}><i class="fa-solid fa-circle-half-stroke"></i></button>;
+  // const [isMobile, setIsMobile] = useState(toggleTheme);
+  return(
+  <div>
+    <button className="mero" onClick={toggleTheme}>
+    <i class="fa-solid fa-sun"></i></button>
+  </div>
+  )
 };
 
 export default ThemeToggleButton;

@@ -1,9 +1,9 @@
 .abouthome1{
-    background-image: url("../../public/imgs/WPP_About.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../public/imgs/WPP_About.jpg");
     background-size: cover; 
     background-position: center center; 
     height: 500px; 
-    opacity: 0.5;
+    /* opacity: 0.5; */
     display: grid;
     place-items:center; 
     text-align: center;

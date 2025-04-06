@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link className="name" to="/">Home</Link>
         <Link className="name" to="/about">About</Link>
         <Link className="name" to="/server">Server</Link>
-        <Link className="name" href="/contact">Contact-Us</Link>
+        <Link className="name" to="/contact">Contact-Us</Link>
             <ThemeToggleButton/>
       </ul>
       <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>

@@ -1,0 +1,31 @@
+.contactimg{
+    width: 100%;
+    /* min-height: 40vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../../public/imgs/WPP-RT2025-Header-homemobile.png');
+    background-size: cover;
+    /* padding: 150px 0; */
+    /* object-fit: cover; */
+    height: 500px;
+    display: grid;
+    place-items:center; 
+    /* text-align: center; */
+}
+
+.contactimg .countact_her h1{
+    text-align: center;
+    color: white;
+}
+
+.contactimg .countact_her p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.countact_her p .mo{
+    margin: 0px 10px;
+    /* color: white; */
+    color: rgb(0, 0, 255);
+    opacity: 0.7;
+}

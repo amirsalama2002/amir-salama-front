@@ -1,0 +1,94 @@
+.co{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 4px 40px;
+    box-shadow: 5px 5px 5px  black;
+    border: 1px solid var(--bg-color-dark);
+}
+.co h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.co .k{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.co .k .c{
+    width: 30rem;
+    /* margin: auto; */
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px !important;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 6px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    background-color: rgb(7, 7, 7);
+    border-radius: 4px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 6px;
+    height: 37vh;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 4px;
+    color: wheat;
+}
+select{
+    width: 105%;
+    padding: 8px;
+    margin-bottom: 6px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 4px;
+    color: wheat;
+}
+
+.co #btn{
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 700;
+    margin: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 5px;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
