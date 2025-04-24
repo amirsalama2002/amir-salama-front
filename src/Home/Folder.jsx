@@ -7,7 +7,7 @@ export default function Folder() {
          city: "Cairo",
          imgs :'https://cdn-talent-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg',
          alt: "Image 1",
-         code : 'Link Github',
+         code : 'GitHub&nbsp;↗',
          git : 'https://github.com/amirsalama2002?tab=repositories',
        },
     2:{
@@ -16,7 +16,7 @@ export default function Folder() {
        city: "Giza",
        imgs :'https://www.shutterstock.com/image-illustration/programmer-developer-typing-script-source-600nw-2060615648.jpg',
         alt: "Image 2",
-        code : 'Link Gmail',
+        code : ' Gmail&nbsp;↗',
           git : 'https://mail.google.com/mail/u/0/#inbox',
      },
     3:{
@@ -25,7 +25,7 @@ export default function Folder() {
        city: "Alexandria",
        imgs :'https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg',
          alt: "Image 3",
-         code : 'Link Linkedin',
+         code : ' Linkedin&nbsp;↗',
           git : 'https://www.linkedin.com/in/amir-hassan-7b3408289/',
        }, 
        4:{
@@ -34,7 +34,7 @@ export default function Folder() {
         city: "Alexandria",
         imgs :'https://www.ganttic.com/wp-content/uploads/2021/05/marketing-project-management-scaled.jpg',
          alt: "Image 4",
-         code : 'Link Whatsapp',
+         code : ' Whatsapp&nbsp;↗',
           git : 'https://api.whatsapp.com/send/?phone=%2B2001028975932&text&type=phone_number&app_absent=0', 
         },
         5:{
@@ -43,7 +43,7 @@ export default function Folder() {
           city: "Alexandria",
           imgs :'https://thumbs.dreamstime.com/b/manager-pointing-talking-coding-program-meeting-room-convocation-caucasian-project-engineering-prompt-diverse-smart-336303690.jpg',
            alt: "Image 5",
-           code : 'Link WebSite',
+           code : 'WebSite&nbsp;↗',
            git : 'https://amirsalama-com.web.app/', 
           },
           6:{
@@ -52,8 +52,8 @@ export default function Folder() {
             city: "Alexandria",
             imgs :'https://miro.medium.com/v2/resize:fit:1400/0*LlP76gas89xP-qeH',
              alt: "Image 5",
-             code : 'Link icloud',
-             git : 'https://amirsalama200272@icloud.com',  
+             code : 'Instagram&nbsp;↗',
+             git : 'https://www.instagram.com/?next=%2F&hl=en',  
             },
   };
   return (
@@ -62,7 +62,7 @@ export default function Folder() {
         {Object.values(users).map(user => (
           <div className='name' key={user.id}>
                 <img src={user.imgs} alt={user.alt}  />
-                <h1>{user.name}</h1>
+                <p className='doc‑note'>{user.name}</p>
                 <a href={user.git} target='blank' className="btn">
                 {user.code}
                </a> 

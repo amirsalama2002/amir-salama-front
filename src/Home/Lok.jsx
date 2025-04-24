@@ -11,9 +11,9 @@ export default function Lok() {
             <div className="fot3">
                 <div className="fot4">
 
-               <h1>Life at programming</h1>
-               <h4>A modern open-concept co-working space where software developers and tech professionals collaborate on innovative projects. With sleek workstations, ergonomic chairs, and an industrial-inspired design, this workspace fosters creativity and teamwork. The developers are immersed in coding, debugging, and brainstorming, utilizing the latest technologies to build cutting-edge software solutions."
-               Would you like me to adjust the description in any way?</h4>
+               <h2 class="title-lg">Life At programming</h2>
+               <p class="doc-sm">A modern open-concept co-working space where software developers and tech professionals collaborate on innovative projects. With sleek workstations, ergonomic chairs, and an industrial-inspired design, this workspace fosters creativity and teamwork. The developers are immersed in coding, debugging, and brainstorming, utilizing the latest technologies to build cutting-edge software solutions."
+               Would you like me to adjust the description in any way?</p>
                 </div>
         </div>
         </div>

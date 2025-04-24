@@ -60,8 +60,7 @@
 }
 
 
-.btn {
-    /* display: inline-block; */
+/* .btn {
     padding: 10px 10px;
     font-size: 16px;
     border: none;
@@ -70,14 +69,74 @@
     color: white;
     cursor: pointer;
     transition: all 0.5s ease;
-    /* margin: 0px 10px; */
   }
 
   .btn:hover {
-    transform: scale(1.1); /* Grow button on hover */
-    background-color: #0056b3; /* Change background color */
+    transform: scale(1.1);
+    background-color: #0056b3;
   }
 
   .btn:active {
-    transform: scale(0.9); /* Shrink button on click */
+    transform: scale(0.9);
+  } */
+
+/* Base button style */
+.btn {
+    display: inline-block;
+    font: 600 0.95rem/1 "Inter", sans-serif;
+    padding: 0.7rem 1.8rem;
+    color: #ffffff;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    border: none;            /* <a> has no default border but good for reset */
+    border-radius: 0.75rem;
+    text-decoration: none;   /* remove underline */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: transform 0.25s cubic-bezier(.2,.8,.4,1),
+                box-shadow 0.25s cubic-bezier(.2,.8,.4,1);
   }
+  
+  /* Hover / focus */
+  .btn:hover,
+  .btn:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(99,102,241,0.35);
+    outline: none;           /* remove default focus ring */
+  }
+  
+  /* Active (mouse down / key press) */
+  .btn:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  }
+  
+  /* High‑contrast / reduced‑motion users */
+  @media (prefers-reduced-motion: reduce) {
+    .btn {
+      transition: none;
+    }
+  }
+  
+  /* Optional dark‑mode tweak */
+  @media (prefers-color-scheme: dark) {
+    .btn {
+      background: linear-gradient(135deg, #818cf8 0%, #6366f1 100%);
+    }
+  }
+
+ /* “Document small” style */
+.doc‑note{
+    font-family: "Georgia", "Times New Roman", serif;   /* classic document feel   */
+    font-size: clamp(0.75rem, 0.4vw + 0.6rem, 0.9rem); /* ~12 px ↔︎ 14 px fluid   */
+    line-height: 1.55;
+    max-width: 65ch;           /* comfortable reading width                      */
+    margin-block: 1rem;        /* space before and after                         */
+  }
+  
+
+  
+  
+  
+    
+    
+    
+    

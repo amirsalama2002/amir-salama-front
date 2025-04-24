@@ -95,3 +95,21 @@
         text-align: center;
     }
   }
+
+
+  /* Mini‑bio font size */
+.bio‑mini{
+    font-family: "Inter", sans-serif;               /* clean, modern face          */
+    font-weight: 500;
+    font-size: clamp(0.8rem, 0.35vw + 0.65rem, 0.95rem); /* ~13 px → 15 px fluid  */
+    line-height: 1.45;
+    color: #475569;                                 /* slate‑600 (adjust as needed)*/
+    margin-block: 0.75rem;                          /* a bit of breathing room     */
+    letter-spacing: 0.005em;                        /* slight spacing for clarity  */
+  }
+  
+  /* Optional dark‑mode tone tweak */
+  @media (prefers-color-scheme: dark){
+    .bio‑mini{ color:#e2e8f0; }                     /* slate‑200                  */
+  }
+  
