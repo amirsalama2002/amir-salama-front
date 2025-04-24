@@ -14,7 +14,7 @@ function Heder(){
             {/* <p>Insights on marketing in 2025 with exclusive videos from  <br/>technology partners, clients and our own experts</p> */}
         </div>
 
-       <Link to="/Fullstack" className="mosalah"  role="button">Prodect&nbsp;↗ Project</Link>
+       <Link to="/Fullstack" className="mosalah"  role="button">Complete&nbsp;↗ Projects</Link>
     </div>
     </div>
     )
