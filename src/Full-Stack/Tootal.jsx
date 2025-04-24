@@ -89,7 +89,7 @@ const Tootal = () => {
         <h4> ₹ {user.free}</h4>
       <div className="butt">
        <a className='hoog' href={user.preview} target='__blank'>Preview</a>
-       <Link className='button32' to="/countactus" target='__blank'>Downlod ({user.slide})</Link>
+       <Link className='button32' to="/contact" target='__blank'>Downlod ({user.slide})</Link>
       </div>
       </div>
     </div>

@@ -6,6 +6,8 @@
     background-position: center;
     height: 100vh;
     margin-top: -9px;
+    font-family: 'Cairo', sans-serif;
+    font-style: italic;
 }
 .home-hero__text h1 strong{
     font-family: "WPP Bold", sans-serif;

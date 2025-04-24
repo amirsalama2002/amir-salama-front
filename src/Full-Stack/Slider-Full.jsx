@@ -100,7 +100,7 @@ const SliderFull = () => {
                 <p> ₹ {slide.free}</p>
                 <div className="mo">
                     <a className='nm' target='__blank' href={slide.link}>Preview</a>
-                    <Link className='do' to="/countactus">Downlod ({slide.caption})</Link>
+                    <Link className='do' to="/contact">Downlod ({slide.caption})</Link>
                 </div>
                 </div>
             </div>
