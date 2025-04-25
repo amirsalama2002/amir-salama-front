@@ -1,43 +1,27 @@
-.abouthome1{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../public/imgs/WPP_About.jpg");
-    background-size: cover; 
-    background-position: center center; 
-    height: 500px; 
-    /* opacity: 0.5; */
-    display: grid;
-    place-items:center; 
+.so{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.so .oo{
+    width: 35rem;
+    margin: auto;
     text-align: center;
 }
-.abouthome1 .kl{
-    font-size: 25px;
-    color: white;
-    opacity: 3;
-    text-transform: capitalize;
+.so .oo img{
+    height: 48vh;
 }
-.abouthome1 .pro{
-    font-size: 25px;
-    font-weight: 200;
+.so .ho{
+    width: 35rem;
+    margin: auto;
 }
-.abouthome1 a{
-      display: inline-block;
-    padding: 10px 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    margin: 10px 0px;
+.so .ho .no{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
-
-.abouthome1 a:hover {
-    transform: scale(1.1); /* Grow button on hover */
-    background-color: #0056b3; /* Change background color */
-  }
-
- .abouthome1 a:active {
-    transform: scale(0.9); /* Shrink button on click */
-  }
-
-

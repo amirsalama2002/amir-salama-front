@@ -1,0 +1,24 @@
+.count2{
+    width: 22rem;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.count2 p{
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.count2 .m{
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 15px;
+    font-family: "WPP Bold", sans-serif;
+}
+
+strong {
+    font-family: "WPP Medium", sans-serif;
+    font-weight: 400;
+}

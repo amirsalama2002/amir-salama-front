@@ -1,0 +1,16 @@
+.scrool{
+    font-family: "WPP Bold", sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+.vo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.scrool p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-wrap: balance;
+    margin: 40px 0 0;
+}
