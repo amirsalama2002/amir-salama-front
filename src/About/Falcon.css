@@ -1,0 +1,29 @@
+.total{
+    width: 90%;
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+}
+.total .hed p{
+     writing-mode: vertical-rl;
+      transform: rotate(180deg);
+       font-size: 24px;
+       font-weight:bold;
+}
+.total .hed .ll{
+    display: flex;
+    width: 20rem;
+}
+
+.total .hed img{
+    margin: auto;
+    height: 30vh;
+}
+
+
+.hed{
+    display: flex;
+    justify-content: space-between;
+}

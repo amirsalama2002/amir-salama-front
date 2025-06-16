@@ -18,14 +18,14 @@
   }
   
   .navbar-logo {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     -webkit-text-fill-color: #0000;
     background: linear-gradient(90deg,#a90cf3 0,#0d49ee);
     -webkit-background-clip: text;
     background-clip: text;
     font-family: cursive;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   
   .nav-links {
@@ -125,4 +125,9 @@
     }
     
   }
+
+
+
+ 
+  
   

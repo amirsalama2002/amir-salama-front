@@ -44,7 +44,7 @@ export default function Folder() {
           imgs :'https://thumbs.dreamstime.com/b/manager-pointing-talking-coding-program-meeting-room-convocation-caucasian-project-engineering-prompt-diverse-smart-336303690.jpg',
            alt: "Image 5",
            code : 'WebSite & ↗',
-           git : 'https://amirsalama-com.web.app/', 
+           git : 'https://linktr.ee/amir_salama', 
           },
           6:{
             id: 6,

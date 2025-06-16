@@ -12,7 +12,7 @@ const Footer = () => {
           <p>GitHub : <a href="https://github.com/amirsalama2002" target="blank">GitHub</a></p>
           <p>Linkedin : <a href="https://www.linkedin.com/in/amir-hassan-7b3408289/" target="blank">Linkedin</a></p>
           <p>whatsapp : <a href="https://api.whatsapp.com/send/?phone=%2B2001028975932&text&type=phone_number&app_absent=0" target="blank">whatsapp</a></p>
-          <p>WebSite: <a href="https://amirsalama-com.web.app/" target="blank">WebSiet</a></p>
+          <p>WebSite: <a href="https://linktr.ee/amir_salama" target="blank">WebSiet</a></p>
         </div>
         <div className="footer1">
           <h4>Front End</h4>

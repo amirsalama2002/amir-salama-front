@@ -5,6 +5,7 @@ import Count1 from "./Count1";
 import Count2 from "./Count2";
 import Count3 from "./Count3";
 import Scroll from "./Scrool";
+// import Falcon from "./Falcon.tsx";
 export default function About() {
   return (
     <div id='mohassan'>
@@ -16,6 +17,7 @@ export default function About() {
       </div>
       <AboutHome/>
       <Scroll/>
+      {/* <Falcon/> */}
     </div>
   )
 }
